@@ -1,0 +1,58 @@
+Test your knowledge on programming languages
+
+Question 1
+Fill in the blank: Programming involves _____ a computer to perform an action or set of actions.
+
+# instructing
+
+// Programming means giving instructions to a computer to perform an action or set of actions.
+
+
+Question 2
+What are the benefits of using a programming language to work with your data? Select all that apply.
+
+# Easily reproduce and share your work
+# Clarify the steps of your analysis
+# Save time
+
+// There are three main benefits of using a programming language to work with your data.
+You can easily reproduce and share your work, save time, and clarify the steps of your analysis.
+
+
+Question 3
+The R programming language can be used for which of the following tasks? Select all that apply. 
+
+# Statistical analysis
+# Data analysis
+# Visualization
+
+// The R programming language can be used for statistical analysis, visualization, and data analysis.
+
+------------------------------------------------------------------------------------------------------
+Test your knowledge on programming with RStudio
+
+Question 1
+What type of software application is RStudio?
+# Integrated development environemnt
+
+// RStudio is a type of software application known as an integrated development environment (IDE).
+An IDE brings together all the tools you may want to use in a single place.
+
+
+Question 2
+RStudio includes which of the following panes? Select all that apply.
+
+# Environment pane
+# Source editor pane
+# R console pane
+
+// RStudio includes an R console pane for executing commands, a source editor pane for writing code,
+and an environment pane for managing loaded data. 
+
+
+Question 3
+If you write code directly in the R source editor, RStudio can save your code when you close your current session.
+
+# True
+
+// If you write code directly in the R source editor, RStudio can save your code when you close your current session. 
