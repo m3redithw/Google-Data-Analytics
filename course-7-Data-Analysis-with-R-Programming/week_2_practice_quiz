@@ -32,3 +32,45 @@ Which of the following examples can you use in R for date/time data? Select all 
 
 // The examples of types of date/time data that you can use in R are 06:11:13 UTC, 2019-04-16, and 2018-12-21 16:35:28 UTC. R recognizes the syntax of each of these formats as a date/time data type.
 
+----------------------------------------------------------------------------------------------------
+Hands-On Activity: R sandbox
+
+Which function can you use to create a different plot for each type of cut of diamond?
+
+# facet_wrap()
+
+// facet_wrap() is an R function used to create subplots, which are individual plots that represent a specific part of a broader dataset. In upcoming activities, you will learn more functions that are helpful while programming in R.
+
+----------------------------------------------------------------------------------------------------
+Test your knowledge on coding in R
+
+Question 1
+An analyst includes the following calculation in their R programming:
+midyear_sales <- (quarter_1_sales + quarter_2_sales) - overhead_costs
+Which variable will the total from this calculation be assigned to?
+
+# midyear_sales
+
+// The total from this calculation will be assigned to the variable midyear_sales. The assignment operator <- follows the variable mid_sales, so the value of the calculated total is assigned to this variable.
+
+
+Question 2
+An analyst is checking the value of the variable x using a logical operator, so they run the following code:
+ x > 35 & x < 65
+Which values of x would return TRUE when the analyst runs the code? Select all that apply.
+
+# 50
+# 60
+
+
+Question 3
+A data analyst inputs the following code in RStudio:
+sales_1 <- 100 * sales_2
+Which of the following types of operators does the analyst use in the code? Select all the apply.
+
+# arithmetic 
+# assignment 
+
+// The analyst uses assignment and arithmetic operators in the code. The assignment operator (<-) assigns the variable sales_1 to the value of 100 * sales_2. The multiplication operator (*) multiplies 100 by sales_2. 
+
+----------------------------------------------------------------------------------------------------
