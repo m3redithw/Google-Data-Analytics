@@ -1,0 +1,34 @@
+Test your knowledge on programming concepts
+
+Question 1
+Why do analysts use comments In R programming? Select all that apply.
+
+# To make an R Script more readable
+# To explain their code
+
+
+Question 2
+What should you use to assign a value to a variable in R?
+
+# An operator
+
+// You should use an operator to assign a value to a variable in R. You should use operators such as <- after a variable to assign a value to it.
+
+
+Question 3
+Which of the following examples is the proper syntax for a function in R?
+
+# print()
+
+// An example of the syntax for a function in R is print(). If you add an argument in the parentheses for the print() function, the argument will appear in the console pane of RStudio.
+
+
+Question 4
+Which of the following examples can you use in R for date/time data? Select all that apply.
+
+# 2019-04-16
+# 2018-12-21 16:35:28 UTC
+# 06:11:13 UTC
+
+// The examples of types of date/time data that you can use in R are 06:11:13 UTC, 2019-04-16, and 2018-12-21 16:35:28 UTC. R recognizes the syntax of each of these formats as a date/time data type.
+
