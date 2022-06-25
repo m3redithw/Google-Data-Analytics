@@ -8,6 +8,7 @@
 
 ## Course 7: Data Analysis with R Programming
 #### Week 1
+[R vs. Python](https://medium.com/analytics-and-data/r-vs-python-a-comprehensive-guide-for-data-professionals-321e8dead598)
 
 #### Week 2
 
