@@ -74,3 +74,51 @@ Which of the following types of operators does the analyst use in the code? Sele
 // The analyst uses assignment and arithmetic operators in the code. The assignment operator (<-) assigns the variable sales_1 to the value of 100 * sales_2. The multiplication operator (*) multiplies 100 by sales_2. 
 
 ----------------------------------------------------------------------------------------------------
+Test your knowledge on R packages
+
+Question 1
+When using RStudio, what does the installed.packages() function do?
+
+# Presents a list of packages currently installed in an RStudio session
+
+
+Question 2
+In data analytics, what is CRAN?
+
+# A commonly used online archive with R packages and other R resources
+
+
+Question 3
+What are ggplot2, tidyr, dplyr, and forcats all a part of?
+
+# A collection of core tidyverse packages
+
+// The packages ggplot2, tidyr, dplyr, and forcats are part of a collection of eight core tidyverse packages. The other core packages are: tibble, readr, purrr, and stringr.
+
+----------------------------------------------------------------------------------------------------
+Test your knowledge on the tidyverse
+
+Question 1
+When working in R, for which part of the data analysis process do analysts use the tidyr package?
+
+# Data cleaning
+
+// Analysts use the tidyr package for data cleaning. It works with wide and long data to make sure every part of a data table or data frame is the right data type and in the right place.
+
+
+Question 2
+Which tidyverse package contains a set of functions, such as select(), that help with data manipulation?
+
+# dplyr
+
+// The dplyr package is the tidyverse package which contains a set of functions, such as select(), that help with data manipulation. For example, select() selects only relevant variables based on their names.
+
+
+Question 3
+An analyst is organizing a dataset in RStudio using the following code:
+arrange(filter(Storage_1, inventory >= 40), count)
+Which of the following examples is a nested function in the code?
+
+# filter
+
+// In the analyst's code, filter is the nested function. It is embedded in the argument of the broader arrange function.
