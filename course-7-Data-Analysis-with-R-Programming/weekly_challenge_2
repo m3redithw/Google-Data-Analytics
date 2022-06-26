@@ -1,0 +1,70 @@
+Question 1
+Which of the following are examples of variable names that can be used in R? Select all that apply.
+
+# utility2
+# autos_5
+
+// Examples of variable names that can be used in R are autos_5 and utility2. Variable names should start with a letter and can also contain numbers and underscores. 
+
+Question 2
+You want to create a vector with the values 21, 12, 39, in that exact order. After specifying the variable, what R code chunk allows you to create the vector?
+
+# c(21, 12, 39)
+
+// The code chunk c(21, 12, 39) allows you to create a vector with the values 21, 12, 39. A vector is a group of data elements of the same type stored in a sequence in R. You can create a vector by putting the values you want inside the parentheses of the combine function.
+
+
+Question 3
+An analyst runs code to convert string data into a date/time data type that results in the following: “2020-07-10”. Which of the following are examples of code that would lead to this return? Select all that apply.
+
+# ymd(20200710)
+# mdy(“July 10th, 2020”)
+
+// The code that would lead to the value of “2020-07-10” are ymd(20200710) and mdy(“July 10th, 2020”). Both of these code chunks use the date/time functions that convert string data types to date/time data types.
+
+
+Question 4
+A data analyst inputs the following code in RStudio:
+change_1 <- 70
+Which of the following types of operators does the analyst use in the code?
+
+# Assignment
+
+// In this code, the analyst uses an assignment operator: <-. The assignment operator assigns the value 70 to the variable change_1.
+
+
+Question 5
+A data analyst is deciding on naming conventions for an analysis that they are beginning in R. Which of the following rules are widely accepted stylistic conventions that the analyst should use when naming variables? Select all that apply.
+
+# Use an underscore to separate words within a variable name
+# Use all lowercase letters in variable names
+
+// The analyst should use all lowercase letters in variable names and should separate words with underscores. These are widely accepted stylistic conventions that help keep code readable.
+
+
+Question 6
+Which of the following are included in R packages? Select all that apply.
+
+# Reusable R functions
+# Tests for checking your code
+# Sample datasets
+
+
+Question 7
+What is the relationship between RStudio and CRAN?
+
+# RStudio installs packages from CRAN that are not in Base R
+
+// RStudio installs packages from CRAN that are not in Base R. CRAN is an online archive with R packages and other R-related resources that makes sure the resources are authentic and valid.
+
+
+Question 8
+A data analyst is reviewing some code and finds the following code chunk:
+mtcars %>%
+     filter(carb > 1) %>%
+     group_by(cyl) %>%
+What is this code chunk an example of?
+
+# Pipe
+
+// The code chunk is an example of a pipe. A pipe is a tool for expressing a sequence of multiple operations in R (in this case filtering and grouping). The operator for a pipe is %>%.
