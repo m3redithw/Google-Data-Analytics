@@ -1,0 +1,95 @@
+Testing your knowledge on R data frames
+
+Question 1
+Which of the following are best practices for creating data frames? Select all that apply.
+
+# Columns should be named
+# Each column should contain the same number of data items
+
+
+Question 2
+Why are tibbles a useful variation of data frames?
+
+# Tibbles make printing easier
+
+// Tibbles can make printing easier. They also help you avoid overloading your console when working with large datasets. Tibbles are automatically set to only return the first ten rows of a dataset and as many columns as it can fit on the screen. 
+
+
+Question 3
+Tidy data is a way of standardizing the organization of data within R. 
+
+# True
+
+// Tidy data refers to the principles that make data structures meaningful and easy to understand. It’s a way of standardizing the organization of data within R. 
+
+
+Question 4
+Which R function can be used to make changes to a data frame?
+
+# mutate()
+
+// The mutate() function can be used to make changes to a data frame. 
+
+------------------------------------------------------------------------------------------
+Testing your knowledge on cleaning data
+
+Question 1
+A data analyst is cleaning their data in R. They want to be sure that their column names are unique and consistent to avoid any errors in their analysis. What R function can they use to do this automatically?
+
+# clean_names()
+
+// The clean_names() function will automatically make sure that column names are unique and consistent. 
+
+
+Question 2
+You are working with the penguins dataset. You want to use the arrange() function to sort the data for the column bill_length_mm in ascending order. You write the following code: 
+
+penguins %>%
+
+Add a code chunk to sort the column bill_length_mm in ascending order. 
+
+# arrange(bill_length_mm)
+
+What is the shortest bill length in mm?
+
+# 32.1
+
+// You add the code chunk arrange(bill_length_mm) to sort the column bill_length_mm in ascending order. The correct code is penguins %>% arrange(bill_length_mm). Inside the parentheses of the arrange() function is the name of the variable you want to sort. The code returns a tibble that displays the data for bill_length_mm from shortest to longest. The shortest bill length is 32.1mm.
+
+
+Question 3
+A data analyst is working with customer information from their company’s sales data. The first and last names are in separate columns, but they want to create one column with both names instead. Which of the following functions can they use?
+
+# unite()
+
+// The unite() function can be used to combine columns. 
+
+------------------------------------------------------------------------------------------
+Test your knowledge on R functions
+
+Question 1
+Which of the following functions can a data analyst use to get a statistical summary of their dataset? Select all that apply.
+
+# mean()
+# cor()
+# sd()
+
+// The sd(), cor(), and mean() functions can provide a statistical summary of the dataset using standard deviation, correlation, and mean. 
+
+
+Question 2
+A data analyst inputs the following command: 
+quartet %>% group_by(set) %>% summarize(mean(x), sd(x), mean(y), sd(y), cor(x, y)). 
+Which of the functions in this command can help them determine how strongly related their variables are?
+
+# cor(x,y)
+
+// The cor() function returns the correlation between two variables. This determines how strong the relationship between those two variables is. 
+
+
+Question 3
+Fill in the blank: The bias function compares the actual outcome of the data with the _____ outcome to determine whether or not the model is biased.
+
+# predicted
+
+// The bias function compares the actual outcome of the data with the predicted outcome to determine whether or not the model is biased.
