@@ -1,0 +1,98 @@
+Question 1
+A data analyst creates a data frame with data that has more than 50,000 observations in it. When they print their data frame, it slows down their console. To avoid this, they decide to switch to a tibble. Why would a tibble be more useful in this situation? 
+
+# Tibbles won’t overload the console because they automatically only print the first 10 rows of data and as many variables as will fit on the screen
+
+// Tibbles make printing in R easier. They won’t accidentally overload the data analyst’s console because they’re automatically set to pull up only the first 10 rows and as many columns as fit on screen.
+
+
+Question 2
+A data analyst is working with a large data frame. It contains so many columns that they don’t all fit on the screen at once. The analyst wants a quick list of all of the column names to get a better idea of what is in their data. What function should they use?
+
+# colnames()
+
+// The colnames() function will return a list of all the column names in a data frame for easy reference. 
+
+
+Question 3
+You are working with the ToothGrowth dataset. You want to use the glimpse() function to get a quick summary of the dataset. Write the code chunk that will give you this summary.
+
+# glimpse(ToothGrowth)
+
+How many variables does the ToothGrowth dataset contain? 
+
+# 3
+
+
+Question 4
+A data analyst is working with a data frame named cars. The analyst notices that all the column names in the data frame are capitalized. What code chunk lets the analyst change all the column names to lowercase? 
+
+# rename_with(cars, tolower)
+
+// The code chunk is rename_with(cars, tolower). The rename_with() function will enable the analyst to easily change the case of the column names to lowercase. Including the tolower argument indicates that all column names will be changed to lowercase. 
+
+
+Question 5
+A data analyst is working with the penguins data. The variable species includes three penguin species: Adelie, Chinstrap, and Gentoo. The analyst wants to create a data frame that only includes the Adelie species. The analyst receives an error message when they run the following code:
+
+penguins %>%
+
+  filter(species <- “Adelie”)
+
+How can the analyst change the second line of code to correct the error?
+
+# filter(species == “Adelie”)
+
+// The code chunk is filter(species == “Adelie”). The filter function is used to specify the part of the data to be viewed. Two equal signs in an argument mean “exactly equal to.” Using this operator instead of the assignment operator <- calls only the data about Adelie penguins to the dataset.
+
+
+Question 6
+You are working with the penguins dataset. You want to use the summarize() and min() functions to find the minimum value for the variable bill_depth_mm. You write the following code:
+
+penguins %>% 
+
+  drop_na() %>% 
+
+  group_by(species) %>%
+
+Add the code chunk that lets you find the minimum value for the variable bill_depth_mm.
+
+# summarize(min(bill_depth_mm))
+
+What is the minimum bill depth in mm for the Chinstrap species?
+
+# 16.4
+
+// The code chunk summarize(min(bill_depth_mm)) lets you find the minimum value for the variable bill_depth_mm. The correct code is penguins %>% drop_na() %>% group_by(species) %>% summarize(min(bill_depth_mm)). The summarize() function displays summary statistics. You can use the summarize() function in combination with other functions -- such as mean(), max(), and min() -- to calculate specific statistics. In this case, you use min() to calculate the minimum value for bill depth. The minimum bill depth for the Chinstrap species is 16.4mm. 
+
+
+Question 7
+A data analyst is working with a data frame named salary_data. They want to create a new column named wages that includes data from the rate column multiplied by 40. What code chunk lets the analyst create the wages column? 
+
+# mutate(salary_data, wages = rate * 40)
+
+// The code chunk is mutate(salary_data, wages = rate * 40). The analyst can use the mutate() function to create a new column called wages that includes data from the rate column multiplied by 40. The mutate() function can create a new column without affecting any existing columns.
+
+
+Question 8
+A data analyst is working with a data frame named retail. It has separate columns for dollars (price_dollars) and cents (price_cents). The analyst wants to combine the two columns into a single column named price, with the dollars and cents separated by a decimal point. For example, if the value in the price_dollars column is 10, and the value in the price_cents column is 50, the value in the price column will be 10.50. What code chunk lets the analyst create the price column? 
+
+# unite(retail, “price”, price_dollars, price_cents, sep=”.”)
+
+// The code chunk  unite(retail, “price”, price_dollars, price_cents, sep=”.”) lets the analyst create the price column. The unite() function lets the analyst combine the dollars and cents data into a single column. In the parentheses of the function, the analyst writes the name of the data frame, then the name of the new column in quotation marks, followed by the names of the two columns they want to combine. Finally, the argument sep=”.” places a decimal point between the dollars and cents data in the price column. 
+
+
+Question 9
+A data analyst is using statistical measures to get a better understanding of their data. What function can they use to determine how strongly related are two of the variables?
+
+# cor()
+
+// The cor() returns the correlation between two variables. Correlation shows us how strong the relationship is between two variables . 
+
+
+Question 10
+A data analyst wants to find out how much the predicted outcome and the actual outcome of their data model differ. What function can they use to quickly measure this?
+
+# bias()
+
+// The bias() function can be used to calculate the average amount a predicted outcome and actual outcome differ in order to determine if the data model is biased.
